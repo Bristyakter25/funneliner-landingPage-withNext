@@ -49,11 +49,11 @@ export default function WhyBuyOurWatches() {
 
     {/* Gradient background */}
     <span className="absolute inset-0
-                     bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500
+                     bg-gradient-to-r from-[#f165aa] to-[#5493ff]
                      transition-all duration-500 ease-in-out
-                     group-hover:from-blue-500
-                     group-hover:via-purple-500
-                     group-hover:to-pink-500">
+                     group-hover:from-[#5493ff]
+                     
+                     group-hover:to-[#f165aa]">
     </span>
 
     {/* Button content */}

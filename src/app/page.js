@@ -4,6 +4,7 @@ import WhyBuyOurWatches from "./components/WhyBuyOurWatches";
 import Features from "./components/Features";
 import Carousel from "./components/Carousel";
 import VideoSection from "./components/VideoSection";
+import KindsOfWatches from "./KindsOfWatches";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
      <Features></Features>
      <Carousel></Carousel>
      <VideoSection></VideoSection>
+     <KindsOfWatches></KindsOfWatches>
     </div>
   );
 }
