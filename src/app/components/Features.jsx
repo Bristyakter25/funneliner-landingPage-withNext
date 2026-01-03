@@ -76,24 +76,25 @@ export default function Features() {
 
             </div>
             <div className='mt-5 w-[460px]'>
-                <div className="mt-4  flex flex-col items-center text-center">
-  
-  <Image
-    src="/watch.png"
-    alt="watch"
-    width={460}
-    height={460}
-  />
+  <div className="mt-4 flex flex-col items-center text-center">
+    <Image
+      src="/watch.png"
+      alt="watch"
+      width={460}
+      height={460}
+    />
 
-  <p className="w-full py-6 px-5 text-2xl font-medium text-white
-                font-['Times_New_Roman',serif]
-                bg-gradient-to-r from-[#f165aa] to-[#5493ff]">
-    DIOR BLACK ULTRAMATTE
-  </p>
-
+    <a href="#banner">
+      <p className="w-[460px] py-6 text-2xl font-medium text-white
+                    font-['Times_New_Roman',serif]
+                    bg-gradient-to-r from-[#f165aa] to-[#5493ff]
+                    cursor-pointer">
+        DIOR BLACK ULTRAMATTE
+      </p>
+    </a>
+  </div>
 </div>
 
-            </div>
 
         </div>
     </div>

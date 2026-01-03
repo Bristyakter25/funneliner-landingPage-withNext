@@ -44,7 +44,8 @@ export default function Carousel() {
               </div>
 
               {/* Title */}
-              <p
+              <a href="#banner">
+                <p
                 className="
                   w-full py-6 px-5 text-center text-xl font-medium
                   font-['Times_New_Roman',serif]
@@ -58,6 +59,7 @@ export default function Carousel() {
               >
                 {item.title}
               </p>
+              </a>
             </div>
           </SwiperSlide>
         ))}

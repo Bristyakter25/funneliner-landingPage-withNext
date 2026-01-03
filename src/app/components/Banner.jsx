@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { ShoppingCart } from "lucide-react";
 export default function Banner() {
   return (
-    <section className="relative py-10 px-10 w-full bg-cover "
+    <section id="banner" className="relative py-10 px-10 w-full bg-cover "
   style={{ backgroundImage: "url('/bannerBG.png')" }}>
       <div className=" grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         
@@ -42,25 +42,33 @@ export default function Banner() {
           <p className="text-3xl font-extrabold text-pink-400">মূল্যঃ ১৬৫০ টাকা</p>
 
           <div className="flex items-center gap-4">
-      <button className="relative flex items-center gap-x-3 px-10 py-3 rounded-lg text-xl font-semibold text-white overflow-hidden group">
-  {/* Gradient background */}
-  <span className="absolute inset-0 
-                   bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500
-                   transition-all duration-500 ease-in-out
-                   group-hover:from-blue-500 group-hover:via-purple-500 group-hover:to-pink-500"></span>
+  {/* ORDER BUTTON */}
+  <button className="relative flex items-center gap-x-2 px-10 py-5 rounded-lg text-lg font-semibold text-white overflow-hidden group">
+    {/* Gradient background */}
+    <span className="absolute inset-0 
+                     bg-gradient-to-r from-[#f165aa] to-[#5493ff] 
+                     transition-all duration-500 ease-in-out
+                     group-hover:from-[#5493ff] 
+                     group-hover:to-[#f165aa]"></span>
 
- 
-  <span className="relative flex items-center gap-x-3">
-    <ShoppingCart className="w-8 h-8 text-white" />
-    অর্ডার করুন
+    {/* Button content */}
+    <span className="relative flex items-center gap-x-2">
+      <ShoppingCart className="w-5 h-5 text-white" />
+      অর্ডার করুন
+    </span>
+  </button>
+
+  {/* PHONE / NUMBER */}
+  <span
+    className="relative px-12 py-5  font-semibold inline-block overflow-hidden"
+    style={{ backgroundImage: "url('/numBG.png')", backgroundSize: "cover", backgroundPosition: "center" }}
+  >
+    <span className="bg-gradient-to-r from-[#f165aa] to-[#5493ff] bg-clip-text text-transparent">
+      01894844452
+    </span>
   </span>
-</button>
+</div>
 
-
-            <span className="bg-white text-pink-500 px-5 py-3 rounded-full font-semibold">
-              01894844452
-            </span>
-          </div>
         </div>
 
         
