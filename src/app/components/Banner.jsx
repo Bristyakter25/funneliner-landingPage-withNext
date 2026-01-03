@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { ShoppingCart } from "lucide-react";
 export default function Banner() {
   return (
-    <section className="w-full min-h-[420px] flex items-center justify-center bg-gradient-to-r from-[#b9c2e8] via-[#d6b8d8] to-[#f0a7c2]  px-6 py-14 ">
+    <section className="w-full min-h-[420px] flex items-center justify-center bg-gradient-to-r from-[#9eaffb] via-[#d0a4de] to-[#f0a7c2]  px-6 py-14 ">
       <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         
         {/* LEFT CONTENT */}
@@ -21,7 +21,7 @@ export default function Banner() {
            
           </div>
 
-          <h1 className="text-3xl  font-bold leading-snug">
+          <h1 className="text-[34px]  font-bold leading-tight">
             আপনার গার্লফ্রেন্ডকে <br />
             মিডিয়াম বাজেটের একটি <br />
             ঘড়ি গিফট করতে চান <br />
