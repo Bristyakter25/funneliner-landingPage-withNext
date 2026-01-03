@@ -2,9 +2,9 @@ import React from 'react'
 import Image from "next/image";
 export default function Features() {
   return (
-    <div className=' mt-20'>
-        <div className='grid grid-cols-2 '>
-            <div className='w-[480px] ml-10'>
+    <div className='mt-11 pt-20 bg-[#fff1fb]'>
+        <div className='grid grid-cols-2 gap-x-3'>
+            <div className='w-[466px] ml-7'>
                 <div>
                     <h1 className="text-[34px] py-3 font-bold
                text-transparent bg-clip-text
@@ -75,14 +75,14 @@ export default function Features() {
 
 
             </div>
-            <div className='ml-12 w-[400px]'>
+            <div className='mt-5 w-[460px]'>
                 <div className="mt-4  flex flex-col items-center text-center">
   
   <Image
     src="/watch.png"
     alt="watch"
-    width={400}
-    height={400}
+    width={460}
+    height={460}
   />
 
   <p className="w-full py-6 px-5 text-2xl font-medium text-white
