@@ -9,7 +9,8 @@ export default function WhyBuyOurWatches() {
     >
      
       <h2 className="text-center text-3xl  font-bold text-transparent bg-clip-text 
-               bg-gradient-to-r from-[#f165aa]  via-[#944df8] to-[#5493ff] py-5">
+               bg-gradient-to-r
+               from-[#f165aa] to-[#5493ff] py-5">
   আমাদের YAZOLE ঘড়ি গুলো কেন নিবেন আপনারা
 </h2>
 
