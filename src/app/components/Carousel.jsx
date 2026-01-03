@@ -34,7 +34,7 @@ export default function Carousel() {
           <SwiperSlide key={index}>
             <div className="group  overflow-hidden">
               {/* Image */}
-              <div className="relative w-full h-64">
+              <div className="relative w-full h-56">
                 <Image
                   src={item.src}
                   alt={item.title}

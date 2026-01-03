@@ -2,7 +2,7 @@ import React from 'react'
 import Image from "next/image";
 export default function Features() {
   return (
-    <div className='mt-11 pt-20 bg-[#fff1fb]'>
+    <div className='mt-11  py-20 bg-[#fff1fb]'>
         <div className='grid grid-cols-2 gap-x-3'>
             <div className='w-[466px] ml-7'>
                 <div>

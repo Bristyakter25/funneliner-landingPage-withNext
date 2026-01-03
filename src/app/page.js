@@ -3,6 +3,7 @@ import Banner from "./components/Banner";
 import WhyBuyOurWatches from "./components/WhyBuyOurWatches";
 import Features from "./components/Features";
 import Carousel from "./components/Carousel";
+import VideoSection from "./components/VideoSection";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
      <WhyBuyOurWatches></WhyBuyOurWatches>
      <Features></Features>
      <Carousel></Carousel>
+     <VideoSection></VideoSection>
     </div>
   );
 }
