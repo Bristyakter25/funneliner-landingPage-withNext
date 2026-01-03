@@ -16,7 +16,7 @@ export default function KindsOfWatches() {
                              px-10 py-3 rounded-lg
                              text-xl font-semibold text-white">
         
-            {/* Gradient background */}
+            
             <span className="absolute inset-0
                              bg-gradient-to-r from-[#f165aa] to-[#5493ff]
                              transition-all duration-500 ease-in-out
@@ -25,7 +25,7 @@ export default function KindsOfWatches() {
                              group-hover:to-[#f165aa]">
             </span>
         
-            {/* Button content */}
+            
             <span className="relative flex items-center gap-x-3">
               <ShoppingCart className="w-8 h-8" />
               অর্ডার করুন

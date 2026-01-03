@@ -8,7 +8,7 @@ export default function Banner() {
   style={{ backgroundImage: "url('/bannerBG.png')" }}>
       <div className=" grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         
-        {/* LEFT CONTENT */}
+        
         <div className="text-white space-y-5">
           <div className="flex pl-5 items-center gap-2">
            <Image
@@ -49,7 +49,7 @@ export default function Banner() {
                    transition-all duration-500 ease-in-out
                    group-hover:from-blue-500 group-hover:via-purple-500 group-hover:to-pink-500"></span>
 
-  {/* Button content */}
+ 
   <span className="relative flex items-center gap-x-3">
     <ShoppingCart className="w-8 h-8 text-white" />
     অর্ডার করুন
@@ -63,10 +63,10 @@ export default function Banner() {
           </div>
         </div>
 
-        {/* RIGHT IMAGE */}
+        
         <div className="flex ml-16 justify-center md:justify-end">
       <motion.div
-        animate={{ y: [0, -45, 0] }} // moves up 15px and back
+        animate={{ y: [0, -45, 0] }} 
         transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
       >
         <Image
