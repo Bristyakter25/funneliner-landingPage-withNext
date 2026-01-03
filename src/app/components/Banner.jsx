@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { ShoppingCart } from "lucide-react";
 export default function Banner() {
   return (
     <section className="w-full min-h-[420px] flex items-center justify-center bg-gradient-to-r from-[#b9c2e8] via-[#d6b8d8] to-[#f0a7c2]  px-6 py-14 ">
@@ -12,8 +13,8 @@ export default function Banner() {
            <Image
   src="/logo.png"
   alt="logo"
-  width={250}      // required placeholder, can be any number
-  height={20}     // required placeholder
+  width={250}      
+  height={20}     
   
 />
 
@@ -40,9 +41,20 @@ export default function Banner() {
           <p className="text-3xl font-extrabold text-pink-400">মূল্যঃ ১৬৫০ টাকা</p>
 
           <div className="flex items-center gap-4">
-            <button className="bg-gradient-to-r from-pink-500 to-blue-500 px-12 py-5 rounded-lg font-semibold">
-              অর্ডার করুন
-            </button>
+      <button className="relative flex items-center gap-x-3 px-10 py-3 rounded-lg text-xl font-semibold text-white overflow-hidden group">
+  {/* Gradient background */}
+  <span className="absolute inset-0 
+                   bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500
+                   transition-all duration-500 ease-in-out
+                   group-hover:from-blue-500 group-hover:via-purple-500 group-hover:to-pink-500"></span>
+
+  {/* Button content */}
+  <span className="relative flex items-center gap-x-3">
+    <ShoppingCart className="w-8 h-8 text-white" />
+    অর্ডার করুন
+  </span>
+</button>
+
 
             <span className="bg-white text-pink-500 px-5 py-3 rounded-full font-semibold">
               01894844452
