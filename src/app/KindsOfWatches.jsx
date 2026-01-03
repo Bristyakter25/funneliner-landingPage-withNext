@@ -1,6 +1,8 @@
+"use client";
 import React from 'react'
 import Image from "next/image";
 import { ShoppingCart } from "lucide-react";
+import { motion } from "framer-motion";
 export default function KindsOfWatches() {
   return (
     <div>
@@ -46,7 +48,7 @@ export default function KindsOfWatches() {
                          height={80}
                        />
                </div>
-               <div className='grid grid-cols-3'>
+               <div className='grid md:grid-cols-3 sm:grid-cols-2'>
                 <ul className="space-y-5">
                   <li className="flex items-center gap-x-3">
                     <Image src="/tick mark.png" alt="tick" width={35} height={35} />
@@ -116,6 +118,23 @@ export default function KindsOfWatches() {
 
 
                </div>
+<div className="relative w-screen overflow-hidden ml-5">
+  <motion.div
+    className="flex w-full justify-center "
+    animate={{ x: [0, -100, 0] }} 
+    transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+  >
+    <Image
+      src="/watch4.png"
+      alt="Watch Product"
+      width={450}
+      height={450}
+      priority
+    />
+  </motion.div>
+</div>
+
+
             </section>
     </div>
   )

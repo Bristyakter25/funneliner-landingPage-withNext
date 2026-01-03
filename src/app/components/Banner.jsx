@@ -4,8 +4,9 @@ import { motion } from "framer-motion";
 import { ShoppingCart } from "lucide-react";
 export default function Banner() {
   return (
-    <section className="w-full min-h-[420px] flex items-center justify-center bg-gradient-to-r from-[#9eaffb] via-[#d0a4de] to-[#f0a7c2]  px-6 py-14 ">
-      <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+    <section className="relative py-10 px-10 w-full bg-cover "
+  style={{ backgroundImage: "url('/bannerBG.png')" }}>
+      <div className=" grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         
         {/* LEFT CONTENT */}
         <div className="text-white space-y-5">
@@ -63,10 +64,10 @@ export default function Banner() {
         </div>
 
         {/* RIGHT IMAGE */}
-        <div className="flex justify-center md:justify-end">
+        <div className="flex ml-16 justify-center md:justify-end">
       <motion.div
-        animate={{ y: [0, -35, 0] }} // moves up 15px and back
-        transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+        animate={{ y: [0, -45, 0] }} // moves up 15px and back
+        transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
       >
         <Image
           src="/watches.png"
