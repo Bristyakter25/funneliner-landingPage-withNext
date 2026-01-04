@@ -6,6 +6,7 @@ import Carousel from "./components/Carousel";
 import VideoSection from "./components/VideoSection";
 import KindsOfWatches from "./components/KindsOfWatches";
 import Reviews from "./components/Reviews";
+import DiscountPage from "./components/DiscountPage";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
      <VideoSection></VideoSection>
      <KindsOfWatches></KindsOfWatches>
      <Reviews></Reviews>
+     <DiscountPage></DiscountPage>
     </div>
   );
 }
