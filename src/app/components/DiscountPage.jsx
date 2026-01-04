@@ -42,15 +42,15 @@ export default function DiscountPage() {
 
       {/* MIDDLE OVERLAY SECTION */}
       <div
-        className="relative mb-10 z-20 w-[750px] h-[500px] bg-cover bg-center flex flex-col items-center justify-center text-center px-6"
+        className="relative mb-10 z-20 w-[750px] h-[600px] bg-cover bg-center flex flex-col items-center justify-center text-center px-6"
         style={{ backgroundImage: "url('/bg4.png')" }}
       >
        
        
 
         {/* TEXT */}
-        <div className="relative z-10 mb-10 text-white">
-          <h2 className="text-5xl mt-52 font-bold mb-10">
+        <div className="relative z-10 mt-18 mb-10 text-white">
+          <h2 className="text-5xl mt-52 font-bold mb-16">
             মূল্যঃ ১৬৫০ টাকা
           </h2>
           <h1 className="relative  flex w-[200px] mx-auto text-white text-center mb-4">
@@ -71,7 +71,7 @@ export default function DiscountPage() {
 </h1>
 
 
-          <p className="text-xl w-[350px] mx-auto mt-10 mb-6">
+          <p className="text-xl w-[350px] mx-auto mt-10 mb-14">
             সরাসরি অর্ডার করতে পারেন আমাদের অনলাইন শপ থেকে।
           </p>
 
