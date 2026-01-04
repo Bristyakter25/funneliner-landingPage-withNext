@@ -3,7 +3,8 @@ import React from 'react'
 
 export default function PlaceOrder() {
   return (
-    <div className="min-h-screen mt-20 w-full bg-gradient-to-r from-[#e6e6f2] via-[#f1b6d8] to-[#f57bb2] px-6 py-10">
+    <section id="order">
+      <div className="min-h-screen mt-20 w-full bg-gradient-to-r from-[#e6e6f2] via-[#f1b6d8] to-[#f57bb2] px-6 py-10">
       
      
       <h1 className="text-center py-5 text-2xl md:text-3xl font-bold mb-10 bg-gradient-to-r from-red-500 to-yellow-400 bg-clip-text text-transparent">
@@ -110,5 +111,6 @@ export default function PlaceOrder() {
 
       </div>
     </div>
+    </section>
   )
 }

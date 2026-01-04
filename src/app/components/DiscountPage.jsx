@@ -76,12 +76,14 @@ export default function DiscountPage() {
           </p>
 
           {/* BUTTON OVER BG */}
-          <button className="px-12 py-5 bg-gradient-to-r from-[#f165aa] to-[#5493ff] text-xl text-white font-semibold rounded-2xl hover:scale-105 transition">
+          <a href="#order">
+            <button className="px-12 py-5 bg-gradient-to-r from-[#f165aa] to-[#5493ff] text-xl text-white font-semibold rounded-2xl hover:scale-105 transition">
            <span className="relative flex items-center gap-x-3">
               <ShoppingCart className="w-8 h-8" />
               অর্ডার করুন
             </span>
           </button>
+          </a>
         </div>
       </div>
 

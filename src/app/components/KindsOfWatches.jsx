@@ -11,7 +11,8 @@ export default function KindsOfWatches() {
                 <h1 className="text-[#d849b2] mb-7 text-center text-5xl font-bold">মূল্যঃ ১৬৫০ টাকা</h1>
                 <p className="text-[27px] word-spacing-wide my-5 font-extralight text-center text-black">সরাসরি অর্ডার করতে পারেন আমাদের অনলাইন শপ থেকে।</p>
         <div className="flex my-7 justify-center">
-          <button className="relative group overflow-hidden
+         <a href="#order">
+           <button className="relative group overflow-hidden
                              flex items-center justify-center
                              px-10 py-3 rounded-lg
                              text-xl font-semibold text-white">
@@ -31,6 +32,7 @@ export default function KindsOfWatches() {
               অর্ডার করুন
             </span>
           </button>
+         </a>
         </div>
         
             </div>

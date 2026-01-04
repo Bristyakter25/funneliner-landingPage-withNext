@@ -8,6 +8,7 @@ import KindsOfWatches from "./components/KindsOfWatches";
 import Reviews from "./components/Reviews";
 import DiscountPage from "./components/DiscountPage";
 import PlaceOrder from "./components/PlaceOrder";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
      <Reviews></Reviews>
      <DiscountPage></DiscountPage>
      <PlaceOrder></PlaceOrder>
+     <Footer></Footer>
     </div>
   );
 }

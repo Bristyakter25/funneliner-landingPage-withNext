@@ -43,7 +43,8 @@ export default function Banner() {
 
           <div className="flex items-center gap-4">
   {/* ORDER BUTTON */}
-  <button className="relative flex items-center gap-x-2 px-10 py-5 rounded-lg text-lg font-semibold text-white overflow-hidden group">
+ <a href="#order">
+   <button className="relative flex items-center gap-x-2 px-10 py-5 rounded-lg text-lg font-semibold text-white overflow-hidden group">
     {/* Gradient background */}
     <span className="absolute inset-0 
                      bg-gradient-to-r from-[#f165aa] to-[#5493ff] 
@@ -57,6 +58,7 @@ export default function Banner() {
       অর্ডার করুন
     </span>
   </button>
+ </a>
 
   {/* PHONE / NUMBER */}
   <span
